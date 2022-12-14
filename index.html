@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Harbour Roleplay</title>
+    <link rel="shortcut icon" type="image/x-icon" href="./images/fav.ico">
+    <!-- seo tags start -->
+    <meta name="description" content="Oregon State Roleplay is an Emergency Response Liberty County Roleplay Server. It aims for professionalism and roleplaying.">
+    <meta property="og:title" content="Oregon State Roleplay" />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="" />
+    <meta property="og:image" content="" />
+    <meta property="og:image:width" content="526" />
+    <meta property="og:image:height" content="275" />
+    <meta property="og:image:type" content="image/jpeg" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta property="og:description" content="Oregon State Roleplay is an Emergency Response Liberty County Roleplay Server. It aims for professionalism and roleplaying." />
+    <meta property="og:site_name" content="Oregon State Roleplay" />
+    <!-- seo tags ends -->
+    <!-- custom css -->
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+    <!-- navbar -->
+    <div class="navbar">
+        <div class="left-part">
+            <li class="logo">
+                <img src="./images/logo.png" alt="">
+            </li>
+        </div>
+        <div class="right-part">
+            <li>
+                <a href="./">Home</a>
+            </li>
+            <li>
+                <a href="" target="_blank">Rules</a>
+            </li>
+            <li>
+                <a href="" target="_blank">Forum</a>
+            </li>
+            <li>
+                <a href="" target="_blank">Discord</a>
+            </li>
+        </div>
+    </div>
+    <div class="banner-container">
+        <div class="banner">
+            <img src="./images/image.jpg" alt="banner image">
+        </div>
+        <div class="banner-text">
+            <p>Oregon State Roleplay</p>
+            <button onclick=connect() class="connect-btn">Join the Game</button>
+        </div>
+    </div>
+    <div class="white-container">
+        <div class="small-container">
+            <p class="heading-text"><span>Emergency Response Liberty County</span> Roleplay Server</p>
+            <p class="text">Join professional english <span>Emergency Response Liberty County</span> roleplaying community. Our Roblox Based Server will provide you the best playing experience! With over <span>30</span> players you will never feel alone in the sunny city of Oregon City! Work as Police, become a criminal, work as a farmer, or pursue a professional DOT career. The opportunities are endless! <span>The best Emergency Response Liberty County server</span> is waiting for you!
+            </p>
+        </div>
+    </div>
+    <script>
+        function connect() {
+            window.location.href = `roblox://placeId='2534724415'&launchData=${encodeURIComponent(`${JSON.stringify({ psCode: "OregonCity" })}`)}`;
+        }
+    </script>
+</body>
+
+</html>
