@@ -226,6 +226,10 @@ header .nav li .dropdown-menu li a {
     background-color: #929292;
     border-radius: 2rem;
 }
+
+.panel-body a {
+	color: white;
+}
 /* --- menu --- */
 
 header .navigation {
