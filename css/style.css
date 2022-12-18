@@ -139,7 +139,7 @@ header .navbar-nav > li {
     padding-top: 12px;
 }
 
-.navbar-nav li a {
+.navbar-nav li a:hover {
 	cursor: pointer;
 }
 
