@@ -398,6 +398,8 @@ select.selectmenu {
     -webkit-border-radius: 0;
     border-radius: 0;
     display: inline-table;
+	border-top-left-radius: 0;
+	border-top-right-radius: 0;
 }
 .skill-home .icons-left {
 	border-top-left-radius: 3rem 3rem;
@@ -728,6 +730,8 @@ footer .widget .widgetheading span {
     text-align: left;
     background-color: #f9f9f9;
     position: relative;
+	border-bottom-left-radius: 0;
+	border-bottom-right-radius: 0;
 }
 .box-area-right {
 	border-bottom-right-radius: 3rem 3rem;
@@ -1183,20 +1187,30 @@ article .align-right {
 ============================= */
 
 @media (max-width: 991px) {
+	.skill-home .icons {
+		border-top-left-radius: 3rem;
+		border-top-right-radius: 3rem;
+	}
+
+	.box-area {
+		border-bottom-left-radius: 3rem;
+		border-bottom-right-radius: 3rem;
+	}
+
 	.skill-home .icons-left {
-		border-top-left-radius: 0;
+		border-top-left-radius: 3rem;
 	}
 
 	.skill-home .icons-right {
-		border-top-right-radius: 0;
+		border-top-right-radius: 3rem;
 	}
 
 	.box-area-left {
-		border-bottom-left-radius: 0;
+		border-bottom-left-radius: 3rem;
 	}
 
 	.box-area-right {
-		border-bottom-right-radius: 0;
+		border-bottom-right-radius: 3rem;
 	}
 	.col-md-3 {
 		padding-bottom: 20px;
