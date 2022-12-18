@@ -442,7 +442,11 @@ select.selectmenu {
     color: white;
     text-align: center;
     background-color: #929292;
-    border-radius: 15rem;
+	padding-bottom: 15px;
+	border-top-left-radius: 50% 40%;
+	border-top-right-radius: 50% 40%;
+	border-bottom-right-radius: 10rem;
+	border-bottom-left-radius: 10rem;
 }
 .team-member h4 {
     color: white;
@@ -450,17 +454,6 @@ select.selectmenu {
 .team-member img {
     border-radius: 100%;
 }
-.team-member-desc {
-    display: none;
-    padding-bottom: 20px;
-}
-.team-member:hover .team-member-desc {
-    display: block;
-}
-.team-member-desc:hover {
-    display: block;
-}
-
 .item_introtext {
     background-color: rgba(254, 254, 255, 0.66);
     margin: 0 auto;
