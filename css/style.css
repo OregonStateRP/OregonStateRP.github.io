@@ -236,7 +236,7 @@ header ul.nav li ul li a {
 
 .navbar .nav a:hover {
     background: none;
-    color: #14a085 !important;
+    color: #80C1CA !important;
 }
 
 .navbar .nav > .active > a,
@@ -280,7 +280,7 @@ header ul.nav li ul li ul {
 .navbar-default .navbar-nav > .active > a,
 .navbar-default .navbar-nav > .active > a:hover,
 .navbar-default .navbar-nav > .active > a:focus {
-    color: #14a085;
+    color: #80C1CA;
 }
 
 ul.nav li.dropdown a {
@@ -514,13 +514,13 @@ ul.nav li.dropdown a {
 ==================================== */
 
 #inner-headline {
-    background: #14a085;
+    background: #80C1CA;
+	background-image: linear-gradient(#1A3038, #80C1CA,  #80C1CA, #80C1CA, #80C1CA, #80C1CA, #80C1CA);
     position: relative;
     margin: 0;
     padding: 0;
     color: #fefefe;
     /* margin: 15px; */
-    border-top: 10px solid #11967c;
 }
 
 #inner-headline .inner-heading h2 {
@@ -590,7 +590,7 @@ ul.link-list li {
     list-style: none;
 }
 footer {
-    background: #14a085;
+    background: #80C1CA;
 }
 footer ul.link-list li a {
     color: #ffffff;
@@ -839,7 +839,7 @@ ul.team-detail li ul.social-network li i {
 .pricing-box-item .pricing-terms h6 {
     font-style: italic;
     margin-top: 10px;
-    color: #14a085;
+    color: #80C1CA;
     font-size: 22px;
     font-family: 'Noto Serif', serif;
 }
@@ -935,7 +935,7 @@ ul.social-network li {
     padding: 0;
     padding-top: 30px;
     margin: 20px 0 0 0;
-    background: #14a085;
+    background: #80C1CA;
 }
 
 #sub-footer p {
