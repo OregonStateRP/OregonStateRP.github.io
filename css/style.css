@@ -1030,6 +1030,11 @@ article .align-right {
 	padding-bottom: 0;
 }
 
+.slides img {
+	max-width: 1440px;
+	max-height: 520px;
+}
+
 /*  Media queries 
 ============================= */
 
