@@ -1238,6 +1238,9 @@ article .align-right {
     display: inline-block;
     border: 1px solid #929292;
 }
+.carousel-indicators .active {
+	margin-right: 4px;
+}
 .textbox {
     background-color: #efefef;
     padding: 4px 25px;
