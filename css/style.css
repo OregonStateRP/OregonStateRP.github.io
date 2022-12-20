@@ -196,13 +196,11 @@ header .nav .caret {
 }
 .panel-group .panel-heading + .panel-collapse .panel-body {
     border-top: 1px solid #ddd;
-    color: white;
-    background-color: #929292;
-    border-radius: 2rem;
+    color: #000;
 }
 
 .panel-body a {
-	color: white;
+	color: #000;
 }
 /* --- menu --- */
 
@@ -427,7 +425,9 @@ ul.nav li.dropdown a {
 .team-member {
     color: white;
     text-align: center;
-    background-color: #929292;
+	align-items: center;
+    background-color: #468790;
+	max-width: 400px;
 	padding-bottom: 15px;
 	border-top-left-radius: 50% 40%;
 	border-top-right-radius: 50% 40%;
