@@ -1259,3 +1259,14 @@ article .align-right {
     padding: 22px 0 14px;
     font-size: 18px;
 }
+
+.discord-button {
+	position: relative;
+	padding: 10px;
+	border: 0;
+	border-radius: 1rem;
+	background-color: #318cca;
+	color: white;
+	left: 50%;
+    transform: translateX(-50%);
+}
