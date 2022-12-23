@@ -341,19 +341,19 @@ ul.nav li.dropdown a {
 .skill-home {
     margin-bottom: 50px;
 }
-.c1 {
+.skill-home .c1 {
     border: #ed5441 1px solid;
     background: #ed5441;
 }
-.c2 {
+.skill-home .c2 {
     border: #d867b2 1px solid;
     background: #d867b2;
 }
-.c3 {
+.skill-home .c3 {
     border: #61b331 1px solid;
     background: #4bc567;
 }
-.c4 {
+.skill-home .c4 {
     border: #609cec 1px solid;
     background: #26aff0;
 }
@@ -377,6 +377,10 @@ ul.nav li.dropdown a {
 	border-top-left-radius: 3rem 3rem;
 }
 .skill-home .icons-right {
+	border-top-right-radius: 3rem 3rem;
+}
+.skill-home .icons-all {
+	border-top-left-radius: 3rem 3rem;
 	border-top-right-radius: 3rem 3rem;
 }
 .skill-home h2 {
@@ -662,6 +666,10 @@ footer .widget .widgetheading span {
 	border-bottom-right-radius: 3rem 3rem;
 }
 .box-area-left {
+	border-bottom-left-radius: 3rem 3rem;
+}
+.box-area-all {
+	border-bottom-right-radius: 3rem 3rem;
 	border-bottom-left-radius: 3rem 3rem;
 }
 /* --- Map --- */
@@ -1229,7 +1237,8 @@ article .align-right {
 }
 .box-area p {
 	z-index: 12;
-	position: relative
+	position: relative;
+	color: black;
 }
 .courses {
     padding: 50px 0;
