@@ -1726,8 +1726,6 @@ article .align-right {
     background-color: #318cca;
     color: white;
     text-decoration: none;
-    left: 33%;
-    transform: translateX(-40%);
 }
 
 .discord-button:hover {
