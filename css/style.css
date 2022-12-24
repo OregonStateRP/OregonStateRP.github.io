@@ -1717,3 +1717,25 @@ article .align-right {
     padding: 22px 0 14px;
     font-size: 18px;
 }
+
+/* Scrollbar */
+
+::-webkit-scrollbar {
+	width: 3px;
+}
+::-webkit-scrollbar-track {
+	background: none;
+}
+::-webkit-scrollbar-thumb {
+	background: #929292;
+	border-radius: 1rem;
+}
+::-webkit-scrollbar-thumb:hover {
+	background: #666666;
+}
+::-webkit-scrollbar-corner {
+	background: none;
+}
+::-webkit-scrollbar-button {
+	display: none;
+}
