@@ -1267,6 +1267,12 @@ article .align-right {
 	border-radius: 1rem;
 	background-color: #318cca;
 	color: white;
-	left: 50%;
-    transform: translateX(-50%);
+	text-decoration: none;
+	left: 33%;
+    transform: translateX(-40%);
+}
+
+.discord-button:hover {
+	color: lightgray;
+	text-decoration: none;
 }
