@@ -1717,19 +1717,3 @@ article .align-right {
     padding: 22px 0 14px;
     font-size: 18px;
 }
-
-.discord-button {
-    position: relative;
-    padding: 10px;
-    border: 0;
-    border-radius: 1rem;
-    background-color: #318cca;
-    color: white;
-    text-decoration: none;
-	font-size: 80%;
-}
-
-.discord-button:hover {
-    color: lightgray;
-    text-decoration: none;
-}
